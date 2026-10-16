@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A([Start]) --> B[Initialize root = NULL]
     B --> C[/Enter number of nodes and values/]
@@ -12,7 +13,7 @@ flowchart TD
     H -- Yes --> C
     H -- No --> I[Find leftmost node]
 
-    I --> J[Display inorder traversal]
+    I --> J[Perform inorder traversal]
     J --> K[Display current node data]
     K --> L[Label left and right pointers]
     L --> M[Find inorder predecessor]
@@ -27,3 +28,5 @@ flowchart TD
     R --> S[Count NULL pointers after threading]
     S --> T[Display comparison and reduction]
     T --> U([Stop])
+```
+
