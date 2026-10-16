@@ -1,4 +1,5 @@
 flowchart TD
+```mermaid
     A([Start]) --> B[Initialize root = NULL]
     B --> C[/Enter number of nodes n/]
     C --> D[i = 0]
@@ -27,5 +28,5 @@ flowchart TD
     U --> R
     V --> R
     R -- No --> W([Stop])
-
+```
 
