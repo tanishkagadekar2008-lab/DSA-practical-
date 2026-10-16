@@ -1,1 +1,24 @@
+## Algorithm
+### Threaded Binary Search Tree (TBST) Pointer Representation
 
+**Main Algorithm**
+
+1. Start.
+2. Initialize the root pointer to NULL.
+3. Read the number of nodes and the values from the user.
+4. Insert each value into the Threaded Binary Search Tree.
+5. If the value already exists, display a duplicate value message and continue with the next value.
+6. During insertion, update the child links and inorder predecessor and successor threads.
+7. Find the leftmost node of the tree.
+8. Perform inorder traversal without recursion or an auxiliary stack.
+9. For each node, perform the following operations:
+   - Display the node's data.
+   - Label the left and right pointers as Child Link or Thread.
+   - Find and display the inorder predecessor.
+   - Find and display the inorder successor.
+   - Move to the next node using the inorder successor.
+10. Count the total number of nodes in the tree.
+11. Calculate the number of NULL child pointers before threading using the formula n + 1.
+12. Count the actual NULL pointers remaining after threading.
+13. Display the NULL pointer counts before and after threading and calculate the reduction.
+14. Stop.
