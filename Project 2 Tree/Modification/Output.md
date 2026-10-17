@@ -1,4 +1,8 @@
+<img width="960" height="540" alt="Screenshot 2026-10-17 003054" src="https://github.com/user-attachments/assets/7462c763-b16c-4afc-b7ed-971950d65681" />
+<img width="960" height="540" alt="Screenshot 2026-10-17 003058" src="https://github.com/user-attachments/assets/087a011c-c2b8-429d-a8f9-a2009c93043a" />
 
+
+Expected output :
 Enter number of nodes: 5
 Enter value: 40
 Enter value: 20
@@ -45,6 +49,4 @@ Total nodes: 5
 Before threading: 6
 After threading: 2
 NULL pointers reduced by: 4
-<img width="960" height="540" alt="Screenshot 2026-10-17 003054" src="https://github.com/user-attachments/assets/7462c763-b16c-4afc-b7ed-971950d65681" />
-<img width="960" height="540" alt="Screenshot 2026-10-17 003058" src="https://github.com/user-attachments/assets/087a011c-c2b8-429d-a8f9-a2009c93043a" />
 
